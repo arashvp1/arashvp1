@@ -14,7 +14,7 @@
 *روش اول*
 ```sh
 cd $HOME
-git clone https://github.com/mohammadrezatitan/parsol.git
+git clone https://github.com/arashvp1/arashvp1.git
 cd parsol
 chmod +x parsol.sh
 ./parsol.sh install
