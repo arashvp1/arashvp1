@@ -1,5 +1,5 @@
--- #titanbot
--- #@titantims
+-- #arashvp1
+-- #@avbat
 
 tdcli = dofile('./tg/tdcli.lua')
 serpent = (loadfile "./libs/serpent.lua")()
@@ -77,21 +77,21 @@ function create_config( )
 		"time1",
 		"write"	
 	},
-    sudo_users = {267785153},
+    sudo_users = {81832072},
     admins = {},
     disabled_channels = {},
     moderation = {data = './data/moderation.json'},
     info_text = [[》parsol v.2
 
 
-》https://github.com/mohammadrezatitan/parsol
+》https://github.com/arashvp1/arashvp1
 
 》Admins :
-》@mohammadrezajiji 《
+》@arashvp1 《
 		
 》Special thanks to :
-》@BeyondTeam《
-》@luaerror
+》@arashvp1《
+》@arashvp1
 ]],
   }
 	serialize_to_file(config, './data/config.lua')
