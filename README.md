@@ -44,22 +44,5 @@ cd parsol
 screen ./parsol.sh
 
 ```
-* * *
 
-
-# [mohammadrezajiji](https://telegram.me/mohammadrezajiji)
-
-
-###  Telegram channel:
-
-# [titanteam](https://telegram.me/titantims)
-
-### thanks to   
-
-# [beyondteam](https://telegram.me/BeyondTeam)
-
-# [luaerror](https://telegram.me/luaerror)
-
-* * *
-》*Please send us your stars☆ at the top of this page*
 
