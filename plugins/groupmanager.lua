@@ -3028,8 +3028,7 @@ end
 
 if matches[1] == "راهنما" and is_mod(msg) then
 text = [[
-*📜Help of 🛡titan🛡 tg*
-#Titantg🏷
+*📜Help of 🛡avbot🛡 *
 〰〰〰〰〰〰〰〰〰〰〰
 🔖راهنمای دستورات :
 
@@ -3054,8 +3053,8 @@ text = [[
 
 🔶
 *___________________________*
-*Channel*: @titantims
-_powered by_ :@mohammadrezajiji
+*Channel*: @avbat
+_powered by_ :@arashvp1
 ]]
 return text
 end
@@ -3169,14 +3168,14 @@ text = [[
 🔹*بیصدا کیبورد*
 🔸*باصدا کیبورد*
 *___________________________*
-*کانال*: @titantims
-سازنده :@mohammadrezajiji
+*کانال*: @avbat
+سازنده :@arashvp1
 ]]
 return text
 end
 if matches[1] == "دستورات مدیریتی" and is_mod(msg) then
 text = [[
-*Tιтαη вσт*
+*arashvpbot*
 *تنظیم مدیر* `[یوزرنیم|ایدی|ریپلای]`
 🔹انتخاب مدیر گروه(قابل انتخاب چند مالک)
 
@@ -3303,8 +3302,8 @@ text = [[
 *پاک کردن پیام ها [ریپلای]*
 🔹پاک کردن تمام پیام های فرد در گروه
 *___________________________*
-*کانال*: @titantims
-سازنده :@mohammadrezajiji
+*کانال*: @avbat
+سازنده :@arashvp1
 ]]
 return text
 end
@@ -3382,7 +3381,7 @@ local lang = redis:get(hash)
 rules = administration[arg.chat_id]['rules']
 else
    if not lang then
-     rules = "ℹ️ The Default Rules :\n1⃣ No Flood.\n2⃣ No Spam.\n3⃣ No Advertising.\n4⃣ Try to stay on topic.\n5⃣ Forbidden any racist, sexual, homophobic or gore content.\n➡️ Repeated failure to comply with these rules will cause ban.\n@titantims"
+     rules = "ℹ️ The Default Rules :\n1⃣ No Flood.\n2⃣ No Spam.\n3⃣ No Advertising.\n4⃣ Try to stay on topic.\n5⃣ Forbidden any racist, sexual, homophobic or gore content.\n➡️ Repeated failure to comply with these rules will cause ban.\n@avbat"
     elseif lang then
        rules = "ℹ️ قوانین پپیشفرض:\n1⃣ ارسال پیام مکرر ممنوع.\n2⃣ اسپم ممنوع.\n3⃣ تبلیغ ممنوع.\n4⃣ سعی کنید از موضوع خارج نشید.\n5⃣ هرنوع نژاد پرستی, شاخ بازی و پورنوگرافی ممنوع .\n➡️ از قوانین پیروی کنید, در صورت عدم رعایت قوانین اول اخطار و در صورت تکرار مسدود.\n@titantims"
  end
@@ -3479,4 +3478,4 @@ patterns ={
 run=run,
 pre_process = pre_process
 }
---end groupmanager.lua #@mohammadrezajiji
+--end groupmanager.lua #@arashvp1
