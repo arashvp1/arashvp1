@@ -63,11 +63,11 @@ if [ ! -f ./tg/tgcli ]; then
 
    print_logo
    echo -e "\033[38;5;208m"
-   echo -e "     >>>>                       parsol :D                      "
+   echo -e "     >>>>                       bot loading... :D                      "
    echo -e "     >>>>                                                    "
-   echo -e "     >>>>                       @mohammadrezajiji ;)                                  "
+   echo -e "     >>>>                       @arashvp1 ;)                                  "
    echo -e "     >>>>                                                   "
-   echo -e "     >>>>                       @titantims                                     "
+   echo -e "     >>>>                       @avbat                                     "
    echo -e "\033[0;00m"
    echo -e "\e[36m"
    logo_play
