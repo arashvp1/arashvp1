@@ -40,7 +40,7 @@ cd $HOME && git clone https://github.com/mohammadrezatitan/parsol.git && cd pars
 ```
 killall screen
 killall .telegram-cli
-cd parsol
+cd arashvp1
 screen ./parsol.sh
 
 ```
